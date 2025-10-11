@@ -1,0 +1,9 @@
+method,vocab_size,oov_rate,compression_rate,processing_time_sec,semantic_similarity
+naive_none,56,0.0,0.0,0.0002,1.0
+regex_none,56,0.0,0.0,0.0001,1.0
+nltk_none,56,0.0,0.0,0.0208,1.0
+spacy_none,56,0.0,0.0,0.0792,1.0
+razdel_none,56,0.0,0.0,0.0005,1.0
+razdel_snowball,55,0.8909,0.0179,0.0027,0.0584
+razdel_pymorphy,55,0.6545,0.0179,0.0073,0.219
+razdel_spacy_lemma,55,0.6182,0.0179,0.0785,0.2432

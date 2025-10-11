@@ -1,0 +1,8 @@
+method,vocab_size,oov_rate,compression_rate,processing_time_sec,semantic_similarity
+naive_none,55,0.0,0.0,0.0008,1.0
+regex_none,55,0.0,0.0,0.0002,1.0
+nltk_none,55,0.0,0.0,0.0513,1.0
+spacy_none,55,0.0,0.0,0.069,1.0
+razdel_none,55,0.0,0.0,0.0021,1.0
+razdel_rule_stemming,55,0.2727,0.0,0.0018,0.5785
+razdel_turkish_stemming,55,0.0,0.0,0.003,1.0

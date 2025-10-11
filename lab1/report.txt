@@ -1,0 +1,28 @@
+[nltk_data] Downloading package punkt to /home/ilnaz/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+Инициализация моделей для татарского языка...
+✓ SpaCy мультиязычная модель загружена
+✓ SnowballStemmer (turkish) загружен
+✓ Правиловый стеммер для татарского доступен
+Будет протестировано 7 методов:
+  - naive + none
+  - regex + none
+  - nltk + none
+  - spacy + none
+  - razdel + none
+  - razdel + rule_stemming
+  - razdel + turkish_stemming
+Тестирование: naive + none
+  ✓ vocab=56, OOV=0.3214, semantic=0.8236
+Тестирование: regex + none
+  ✓ vocab=38, OOV=0.0, semantic=0.8236
+Тестирование: nltk + none
+  ✓ vocab=56, OOV=0.3214, semantic=0.8236
+Тестирование: spacy + none
+  ✓ vocab=58, OOV=0.3448, semantic=0.8236
+Тестирование: razdel + none
+  ✓ vocab=56, OOV=0.3214, semantic=0.8236
+Тестирование: razdel + rule_stemming
+  ✓ vocab=56, OOV=0.3214, semantic=0.8236
+Тестирование: razdel + turkish_stemming
+  ✓ vocab=56, OOV=0.3214, semantic=0.8236
