@@ -1,0 +1,20 @@
+{
+  "model_type": "doc2vec_pv-dm",
+  "filename": "doc2vec_pv-dm_20251023_181810",
+  "timestamp": "20251023_181810",
+  "vocab_size": 2334,
+  "vector_size": 200,
+  "parameters": {
+    "vector_size": 200,
+    "window": 5,
+    "min_count": 1,
+    "dm": 1,
+    "workers": 4,
+    "epochs": 20,
+    "num_documents": 600
+  },
+  "file_paths": {
+    "model": "saved_models/doc2vec_pv-dm_20251023_181810.model",
+    "vectors": "saved_models/doc2vec_pv-dm_20251023_181810_vectors.bin"
+  }
+}
