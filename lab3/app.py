@@ -178,7 +178,10 @@ class ModelLoader:
                 }
 
             elif task_type == "multiclass":
-                classes = ["Technology", "Sports", "Politics", "Economy", "Culture"]
+                classes = ["Авыл", "Дин", "Икътисад",
+                           "Махсус хәрби операция", "Мәдәният", "Рәсми Татарстан",
+                           "Спорт", "Сәясәт", "Татар дөньясы", "Татар матбугаты",
+                           "Фән һәм мәгариф", "Хәвеф-хәтәр", "Җәмгыять"]
                 probs = np.random.dirichlet(np.ones(len(classes)))
                 prediction = classes[np.argmax(probs)]
                 return {
@@ -188,7 +191,10 @@ class ModelLoader:
                 }
 
             elif task_type == "multilabel":
-                labels = ["Technology", "Sports", "Politics", "Economy", "Culture", "Science", "Health"]
+                labels = ["Авыл", "Дин", "Икътисад",
+                          "Махсус хәрби операция", "Мәдәният", "Рәсми Татарстан",
+                          "Спорт", "Сәясәт", "Татар дөньясы", "Татар матбугаты",
+                          "Фән һәм мәгариф", "Хәвеф-хәтәр", "Җәмгыять"]
                 probs = np.random.uniform(0, 1, len(labels))
                 predictions = [labels[i] for i in range(len(labels)) if probs[i] > 0.5]
                 return {
